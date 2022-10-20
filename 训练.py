@@ -4,7 +4,7 @@ import os
 import time
 # 从硬盘或者网络连接读取文件存到的.keras\datasets下，这里是把数据集poetry.txt放到了C盘根目录下
 path_to_file = tf.keras.utils.get_file("poetry.txt","file:///media/liunboyan/Data/pythonprojects/NLP/大作业/poetry.txt")
-print(path_to_file)
+# print(path_to_file)
 # 读取文本内容
 text = open(path_to_file, 'rb').read().decode(encoding='gbk')
 # 打印出来
